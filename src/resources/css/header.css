@@ -1,0 +1,11 @@
+.Header_Box{
+    background-color: red;
+    width: auto;
+    height: 50px;
+}
+
+.Header_Inner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
