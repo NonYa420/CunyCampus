@@ -5,14 +5,6 @@ const Header = () => {
 
     return (
         <div className = "Header_Box">
-            <div className = "Header_Inner">
-                <button>
-                    Menu
-                </button>
-                <p>
-                    Hello world
-                </p>
-            </div>
             
         </div>
     );

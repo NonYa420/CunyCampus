@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import * as FaIcons from 'react-icons/fa';
 
 import logo from "../../resources/images/logo.jpg"
 import "../../resources/css/body.css"
@@ -14,7 +15,7 @@ class Body extends Component {
 
                 <div className = "Search_Box_Div">
                     <input className = "Search_Box" type = "text" placeholder = "Search..."/>
-                    <button className = "Search_Button" type="submit">Click</button>
+                    <button className = "Search_Button"><FaIcons.FaSearch /></button>
                 </div>
 
                 <div className = "CFBB">
